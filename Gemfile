@@ -14,7 +14,7 @@ end
 
 # 套件: 使用 postgresql 作為 Production Record 的資料庫。
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 1.5', '>= 1.5.4'
 end
 
 # 套件: Puma Web 伺服器，用於啟動和運行 Rails 應用程式。
